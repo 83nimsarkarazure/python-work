@@ -1,0 +1,4 @@
+curl -X POST -F "file=@C:\Users\hitesh\Documents\gptAi\python\frauddetection\image.png" http://localhost:5000/upload
+
+curl -X POST -H "Content-Type: application/json" -d '{"imgData":"YOUR_BASE64_ENCODED_IMAGE_DATA"}' https://example.com/upload
+
